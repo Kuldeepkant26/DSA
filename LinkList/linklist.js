@@ -48,4 +48,5 @@ let l1 = new LinkList();
 l1.addFirst('1')
 l1.addFirst('2')
 l1.addFirst('3')
+l1.addLast('8');
 l1.printNode();
