@@ -60,6 +60,30 @@ class Bst {
             return this.findNode(root.right, key);
         }
     }
+    preorder() {
+        this.preorderTraversal(this.root);
+    }
+    preorderTraversal(root) {
+        console.log(root.data);
+        this.preorderTraversal(root.left)
+        this.preorderTraversal(root.right)
+    }
+    postorder() {
+        this.postorderTraversal(this.root);
+    }
+    postorderTraversal(root) {
+        this.preorderTraversal(root.left)
+        this.preorderTraversal(root.right)
+        console.log(root.data);
+    }
+    inorder() {
+        this.inorderTraversal(this.root);
+    }
+    inorderTraversal(root) {
+        this.preorderTraversal(root.left)
+        console.log(root.data);
+        this.preorderTraversal(root.right)
+    }
 }
 
 let b1 = new Bst();
