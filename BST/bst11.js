@@ -111,6 +111,7 @@ b1.insert(10);
 console.log(b1.isEmpty());
 // b1.inorder();
 // b1.preorder();
+
 // b1.postorder();
 
 console.log(b1.search(12));
