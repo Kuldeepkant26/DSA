@@ -115,5 +115,5 @@ console.log(b1.isEmpty());
 
 // b1.postorder();
 
-console.log(b1.search(12));
+console.log(b1.search(7));
 b1.BFStraversal();
