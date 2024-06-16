@@ -72,6 +72,7 @@ let b1 = new Bst();
 b1.insert(9)
 b1.insert(8)
 b1.insert(7)
+
 b1.insert(1)
 
 b1.insert(72)
