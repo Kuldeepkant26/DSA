@@ -42,6 +42,7 @@ graph.addVertex('B');
 graph.addVertex('C');
 graph.addVertex('D');
 graph.connectEdge('A', 'B');
+
 graph.connectEdge('C', 'B');
 graph.connectEdge('C', 'A');
 graph.connectEdge('C', 'D');

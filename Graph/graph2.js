@@ -22,6 +22,7 @@ class graph {
     }
     hasedge(vertex1, vertex2) {
         if (!this.adjecentList[vertex1] || !this.adjecentList[vertex2]) {
+            
             return false
         }
         return this.adjecentList[vertex1].includes(vertex2) && this.adjecentList[vertex2].includes(vertex1)

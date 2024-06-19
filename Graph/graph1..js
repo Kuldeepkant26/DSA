@@ -44,6 +44,7 @@ graph.connectEdge(0, 1);
 graph.connectEdge(0, 2);
 graph.connectEdge(1, 3);
 graph.connectEdge(2, 4);
+
 graph.display();
 
 console.log(graph.hasEdge(0, 1)); // true
