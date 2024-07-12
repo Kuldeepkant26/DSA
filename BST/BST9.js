@@ -33,6 +33,7 @@ class Bst {
                 root.right = newNode;
             } else {
                 this.insertNode(root.right, newNode);
+                
             }
         }
     }
