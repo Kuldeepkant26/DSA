@@ -61,9 +61,9 @@ class Bst {
 
 let b1 = new Bst();
 
-b1.insertNode(5);
+b1.insertNode(5)
 b1.insertNode(8);
 
-console.log(b1.search(9))
+console.log(b1.search(8))
 
 console.log(b1.isEmpty());
